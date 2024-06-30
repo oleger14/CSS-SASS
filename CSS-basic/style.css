@@ -96,3 +96,94 @@ h1 {
     background: white;
     border: none;
 }
+
+.section-title {
+    text-align: center;
+}
+
+.head {
+    margin-top: 50px;
+    display: inline-block;
+    margin-bottom: 45px;
+}
+
+.free {
+    background: #2ddf5c;
+    display: inline-block;
+    width: 550px;
+    height: 480px;
+    padding: 5px;
+    margin-right: 50px;
+    margin-left: 75px;
+    padding-left: 10px;
+    text-align: center;
+
+}
+
+.free li {
+    list-style: none;
+
+}
+
+.recommend {
+    background: #206934;
+    display: inline-block;
+    width: 550px;
+    height: 650px;
+    padding: 5px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+
+.title-recom {
+    padding: 5px;
+    background: white;
+    display: inline-block;
+    border-radius: 15px;
+    color: #206934;
+    box-shadow: 8px 8px black;
+}
+
+.ofer-recom li {
+    list-style: none;
+    color: white;
+}
+
+.wiat {
+    color: white;
+}
+
+.premium {
+    background: #2ddf5c;
+    display: inline-block;
+    width: 550px;
+    height: 480px;
+    padding: 5px;
+    text-align: center;
+}
+
+.ofer-prem li {
+    list-style: none;
+}
+
+.btn {
+    background: black;
+    color: white;
+    font-weight: bold;
+
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.many {
+    background: #ff0000;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    height: 70px;
+    display: inline-block;
+    padding-top: 15px;
+}
