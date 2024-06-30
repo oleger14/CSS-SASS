@@ -8,8 +8,8 @@
         .switch {
           position: relative;
           display: inline-block;
-          width: 60px;
-          height: 34px;
+          width: 65px;
+          height: 40px;
         }
         
         .switch input { 
@@ -33,10 +33,10 @@
         .slider:before {
           position: absolute;
           content: "";
-          height: 26px;
-          width: 26px;
-          left: 4px;
-          bottom: 4px;
+          height: 30px;
+          width: 30px;
+          left: 5px;
+          bottom: 5px;
           background-color: white;
           -webkit-transition: .4s;
           transition: .4s;
@@ -67,18 +67,24 @@
           background: yellow;
         }
 
-        span.sun{
-          /* padding-right: 45px; */
-          color: white;
+        
+        span .moon{
+          height: 26px;
+          width: 26px;
+          padding-top: 5px;
         }
+       
+        
        
         </style>
 </head>
 <body>
     <label class="switch">
-      <span class="slider round sun">S</span>
-        <input type="checkbox" checked>
-        <span class="slider round">S</span>
+      <input type="checkbox" checked>
+        <span class="slider round">
+          <!-- <img src="./img/Sun.svg" alt="" class="svg sun"> -->
+          <img src="./img/Moon.svg" alt="" class="svg moon">
+        </span>
       </label>
 </body>
 </html>
