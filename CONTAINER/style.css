@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 92%;
+    margin: auto;
+    height: 100%;
+}
+
+/* Tablet Style */
+@media only screen and (min-width: 576px) {
+    .container {
+        width: 576px;
+    }
+}
+
+/* Desktop Style */
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+header {
+    background: rgb(0, 0, 134);
+    color: white;
+}
+
+.top-bar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero {
+    background: #ac9f9f;
+    padding: 20px 0;
+}
+
+.hero h1 {
+    margin-top: 0;
+}
