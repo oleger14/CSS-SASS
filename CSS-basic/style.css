@@ -180,17 +180,6 @@ h1 {
     padding: 8px;
 }
 
-.many {
-    background: #ff0000;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 32px;
-    color: white;
-    height: 70px;
-    display: inline-block;
-    padding-top: 15px;
-}
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -207,4 +196,43 @@ h1 {
 
 .container {
     padding: 2px 16px;
+}
+
+.rounded {
+    width: 100%;
+    height: 500px;
+    background: #ff0000;
+    /* display: block; */
+    padding: 10px;
+}
+
+.grupp {
+    margin-top: 100px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.circl {
+
+    display: inline-flex;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 180px;
+
+}
+
+.data {
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.many {
+    text-align: center;
+    color: white;
+
 }
